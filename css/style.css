@@ -1,0 +1,50 @@
+body{
+  background: linear-gradient( rgba(89, 89, 89, .50), rgba(89, 89, 89, .50)), url(https://www.nps.gov/yose/planyourvisit/images/20170618_155330.jpg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+#Me {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+#links {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-family: Amatic SC;
+  font-size: 100px;
+  font-style: italic;
+  color: white;
+  padding-bottom: 275px;
+}
+
+a{
+  font-size: 25px;
+  font-family: Special Elite;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {  
+      font-size: 60px;
+      padding-bottom: 100px;
+    }
+  a{
+    font-size: 20px;
+  }
+}

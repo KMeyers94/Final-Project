@@ -1,0 +1,99 @@
+* {
+}
+
+#wrapper {
+  margin: auto;
+}
+
+body {
+  background-image: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15369080_1279821165394064_5016450473563871088_o.jpg?oh=df3891fea199dc9a4cb8bd0cd323451e&oe=5A516F66);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.Nav{
+  font-family: Special Elite;
+  text-decoration: none;
+  color: rgb(89, 89, 89);
+}
+
+h1 {
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  height: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 90%;
+}
+
+h3 {
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 125%;
+  background-color: rgba(220, 20, 60, 0.75);
+}
+
+body {
+  font-family: Special Elite, Courier;
+}
+
+#TechSkills {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .75);
+  /* This creates a buffer to keep text away from the edges of the screen */
+}
+#APSA {
+  text-align: center;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+/* Fix the alignment relative to the rest of the page */
+
+#school1,
+#school2 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+/* Fix the alignment relative to the rest of the page */
+#job_1 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+#job_2 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+#job_3 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+#job_4 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+#job_5 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+/* This shifts the text away from the edges of the screen */
+
+p {
+  padding: 10px 10px;
+}
+
+/*@media only screen and (max-width:)*/
